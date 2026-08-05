@@ -1,5 +1,7 @@
 # Intent + LLM Chatbot
 
+Independent agent-routing project demonstrating how deterministic intent classification and LLM generation can coexist behind one deployable service. The repository separates training, inference and serving, supports remote model loading, and exposes health-aware container behavior.
+
 A deployable Flask chatbot that routes conversations through a trained intent classifier and can use an LLM-backed response path when `GROQ_API_KEY` is configured.
 
 ## Architecture
